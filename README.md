@@ -15,14 +15,14 @@
     * Start small
 
 ## To-do list
-* [ ] Finalize(ish) parts list
-* [ ] Design stepper control board
-* [ ] Order stepper control board
-* [ ] Order parts
-* [ ] Design stepper testing frame
+* Finalize(ish) parts list
+* Design stepper control board
+* Order stepper control board
+* Order parts
+* Design stepper testing frame
     * Three-axis linear movement table?
     * Three DOF rotational frame?
-* [ ] Build stepper frame
-* [ ] Assemble control board
-* [ ] ???
-* [ ] Profit!
+* Build stepper frame
+* Assemble control board
+* ???
+* Profit!
