@@ -1,0 +1,290 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 19 Jul 2013 04:40:13 PM CDT
+
+BeginCmp
+TimeStamp = /51E9B290;
+Reference = BT1;
+ValeurCmp = LIPO;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFA754;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFA781;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFAC36;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9F58;
+Reference = C4;
+ValeurCmp = 0.01uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9F30;
+Reference = C5;
+ValeurCmp = 2.2uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9FF5;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E87CD3;
+Reference = C7;
+ValeurCmp = 1uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E87C8D;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E87C5B;
+Reference = C9;
+ValeurCmp = 1uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9B6D1;
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9BAC7;
+Reference = C11;
+ValeurCmp = 2.2uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9BA81;
+Reference = C12;
+ValeurCmp = 470pF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9863E;
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = 1206(3216m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9724C;
+Reference = IC1;
+ValeurCmp = MCP4232;
+IdModule  = MSOP10;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9BDC;
+Reference = IC2;
+ValeurCmp = ATMEGA328P_TQFP;
+IdModule  = TQFP32_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9BCD;
+Reference = IC3;
+ValeurCmp = DRV8834_SOP;
+IdModule  = HTSSOP24;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E87A13;
+Reference = IC4;
+ValeurCmp = MIC5205;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E87C4C;
+Reference = IC5;
+ValeurCmp = BLE112-A;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9AB1B;
+Reference = LED1;
+ValeurCmp = L1;
+IdModule  = 0603(1608m)_led;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9ABA7;
+Reference = LED2;
+ValeurCmp = L2;
+IdModule  = 0603(1608m)_led;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9A377;
+Reference = LED3;
+ValeurCmp = PWR;
+IdModule  = 0603(1608m)_led;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9D5B1;
+Reference = M1;
+ValeurCmp = STEPPER;
+IdModule  = SIP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9BFF;
+Reference = P1;
+ValeurCmp = AVR_ISP;
+IdModule  = 2x3-array;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9C2B8;
+Reference = P2;
+ValeurCmp = CC_ISP;
+IdModule  = 2x5-array;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E982CB;
+Reference = R1;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFA96D;
+Reference = R2;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9A8FC;
+Reference = R3;
+ValeurCmp = 1kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9A90B;
+Reference = R4;
+ValeurCmp = 1kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFA3DC;
+Reference = R5;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFA4EA;
+Reference = R6;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DFA48D;
+Reference = R7;
+ValeurCmp = 22kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9896D;
+Reference = R8;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E99365;
+Reference = R9;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E99338;
+Reference = R10;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9A368;
+Reference = R11;
+ValeurCmp = 1kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9C99;
+Reference = S1;
+ValeurCmp = RST;
+IdModule  = SPST_4-pin-sm;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E98B14;
+Reference = S2;
+ValeurCmp = BT_RST;
+IdModule  = SPST_4-pin-sm;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E966F8;
+Reference = VR1;
+ValeurCmp = 10Ω;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E966E9;
+Reference = VR2;
+ValeurCmp = 10Ω;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DF9CA8;
+Reference = Y1;
+ValeurCmp = 8MHz;
+IdModule  = HC49;
+EndCmp
+
+EndListe
