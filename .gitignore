@@ -1,3 +1,7 @@
 # kicad temp files #
 ####################
 $*
+
+# kicad generated files #
+#########################
+*.net
