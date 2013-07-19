@@ -1,4 +1,4 @@
-update=Fri 19 Jul 2013 02:08:46 PM CDT
+update=Fri 19 Jul 2013 04:51:10 PM CDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -46,7 +46,7 @@ version=1
 [eeschema]
 version=1
 LibDir=../../kicad-lib/components
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
