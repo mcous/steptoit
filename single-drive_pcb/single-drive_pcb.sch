@@ -14,7 +14,7 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Single Stepper Driver"
+Title "Single Stepper Driver Schematic"
 Date "19 jul 2013"
 Rev "0.1"
 Comp "Copyright 2013 by Michael Cousins"

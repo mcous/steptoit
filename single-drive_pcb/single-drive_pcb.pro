@@ -1,13 +1,11 @@
-update=Fri 19 Jul 2013 06:05:56 PM CDT
+update=Fri 19 Jul 2013 06:19:01 PM CDT
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../kicad-lib/components
@@ -63,3 +61,5 @@ LibName13=connect_sm
 LibName14=asm
 LibName15=bluegiga
 LibName16=bourns
+[general]
+version=1
