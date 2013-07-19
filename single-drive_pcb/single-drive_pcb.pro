@@ -1,6 +1,6 @@
-update=Thu 18 Jul 2013 06:21:30 PM CDT
+update=Fri 19 Jul 2013 11:39:35 AM CDT
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -41,6 +41,8 @@ LibName11=dip
 LibName12=connect_thru
 LibName13=connect_sm
 LibName14=asm
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../kicad-lib/components
@@ -58,5 +60,4 @@ LibName5=connector
 LibName6=avr-mcu
 LibName7=bluegiga
 LibName8=micrel-ic
-[general]
-version=1
+LibName9=microchip-ic
