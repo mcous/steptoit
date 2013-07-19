@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 19 Jul 2013 04:40:13 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 19 Jul 2013 06:03:28 PM CDT
 
 BeginCmp
 TimeStamp = /51E9B290;
 Reference = BT1;
 ValeurCmp = LIPO;
-IdModule  = ;
+IdModule  = JST_PH_2-pin;
 EndCmp
 
 BeginCmp
@@ -92,6 +92,20 @@ IdModule  = 0603(1608m);
 EndCmp
 
 BeginCmp
+TimeStamp = /51E9BD2E;
+Reference = C13;
+ValeurCmp = 10uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9BFAC;
+Reference = C14;
+ValeurCmp = 1uF;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
 TimeStamp = /51E9863E;
 Reference = F1;
 ValeurCmp = 500mA;
@@ -130,7 +144,21 @@ BeginCmp
 TimeStamp = /51E87C4C;
 Reference = IC5;
 ValeurCmp = BLE112-A;
-IdModule  = ;
+IdModule  = BLE112-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9B762;
+Reference = IC6;
+ValeurCmp = MAX1555;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9B684;
+Reference = J1;
+ValeurCmp = MICROUSB;
+IdModule  = MICROUSB_sm;
 EndCmp
 
 BeginCmp
@@ -151,6 +179,13 @@ BeginCmp
 TimeStamp = /51E9A377;
 Reference = LED3;
 ValeurCmp = PWR;
+IdModule  = 0603(1608m)_led;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9BAF3;
+Reference = LED4;
+ValeurCmp = CHG;
 IdModule  = 0603(1608m)_led;
 EndCmp
 
@@ -253,6 +288,20 @@ IdModule  = 0603(1608m);
 EndCmp
 
 BeginCmp
+TimeStamp = /51E9B9BA;
+Reference = R12;
+ValeurCmp = 1kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
+TimeStamp = /51E9CF2C;
+Reference = R13;
+ValeurCmp = 10kΩ;
+IdModule  = 0603(1608m);
+EndCmp
+
+BeginCmp
 TimeStamp = /51DF9C99;
 Reference = S1;
 ValeurCmp = RST;
@@ -270,14 +319,14 @@ BeginCmp
 TimeStamp = /51E966F8;
 Reference = VR1;
 ValeurCmp = 10Ω;
-IdModule  = ;
+IdModule  = BOURNS-3362P_pot;
 EndCmp
 
 BeginCmp
 TimeStamp = /51E966E9;
 Reference = VR2;
 ValeurCmp = 10Ω;
-IdModule  = ;
+IdModule  = BOURNS-3362P_pot;
 EndCmp
 
 BeginCmp
