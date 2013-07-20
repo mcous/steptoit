@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 19 Jul 2013 06:03:28 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 20 Jul 2013 02:42:06 PM CDT
 
 BeginCmp
 TimeStamp = /51E9B290;
 Reference = BT1;
 ValeurCmp = LIPO;
-IdModule  = JST_PH_2-pin;
+IdModule  = JST_PH_2-pin_vert-sm;
 EndCmp
 
 BeginCmp
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /51DF9CA8;
 Reference = Y1;
 ValeurCmp = 8MHz;
-IdModule  = HC49;
+IdModule  = XTAL_TXC_7A;
 EndCmp
 
 EndListe

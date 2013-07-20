@@ -1,4 +1,4 @@
-update=Fri 19 Jul 2013 11:54:23 PM CDT
+update=Sat 20 Jul 2013 04:29:11 PM CDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,21 +28,21 @@ LibName9=microchip-ic
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    3.600000"
+PadDrillOvalY="    3.600000"
+PadSizeH="    3.600000"
+PadSizeV="    3.600000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
 ModuleTextSizeV="    1.000000"
 ModuleTextSizeH="    1.000000"
 ModuleTextSizeThickness="    0.150000"
-SolderMaskClearance="    0.000000"
+SolderMaskClearance="    0.177800"
 SolderMaskMinWidth="    0.000000"
 DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
-ModuleOutlineThickness="    0.150000"
+ModuleOutlineThickness="    0.381000"
 [pcbnew/libraries]
 LibDir=../../kicad-lib/footprints
 LibName1=xtal
