@@ -15,7 +15,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Single Stepper Driver Schematic"
-Date "19 jul 2013"
+Date "21 jul 2013"
 Rev "0.1"
 Comp "Copyright 2013 by Michael Cousins"
 Comment1 "https://www.github.com/mcous/steptoit"
@@ -622,10 +622,8 @@ NoConn ~ 4400 2900
 NoConn ~ 4400 2800
 NoConn ~ 4400 2300
 NoConn ~ 4400 2200
-Text Label 9600 4950 2    60   ~ 0
+Text Label 9550 3850 2    60   ~ 0
 AVR_RX
-Text Label 9600 5050 2    60   ~ 0
-AVR_TX
 $Comp
 L R R10
 U 1 1 51E99338
@@ -640,13 +638,13 @@ $EndComp
 $Comp
 L R R9
 U 1 1 51E99365
-P 9450 4200
-F 0 "R9" V 9500 4100 60  0000 C CNN
-F 1 "10kΩ" V 9400 4050 60  0000 C CNN
-F 2 "~" H 9450 4200 60  0000 C CNN
-F 3 "~" H 9450 4200 60  0000 C CNN
-	1    9450 4200
-	0    -1   -1   0   
+P 9350 3400
+F 0 "R9" H 9450 3300 60  0000 C CNN
+F 1 "10kΩ" H 9200 3300 60  0000 C CNN
+F 2 "~" H 9350 3400 60  0000 C CNN
+F 3 "~" H 9350 3400 60  0000 C CNN
+	1    9350 3400
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR021
@@ -662,13 +660,13 @@ $EndComp
 $Comp
 L GND #PWR022
 U 1 1 51E99DB4
-P 9450 3950
-F 0 "#PWR022" H 9450 3950 30  0001 C CNN
-F 1 "GND" H 9450 3880 30  0001 C CNN
-F 2 "" H 9450 3950 60  0000 C CNN
-F 3 "" H 9450 3950 60  0000 C CNN
-	1    9450 3950
-	-1   0    0    1   
+P 9100 3400
+F 0 "#PWR022" H 9100 3400 30  0001 C CNN
+F 1 "GND" H 9100 3330 30  0001 C CNN
+F 2 "" H 9100 3400 60  0000 C CNN
+F 3 "" H 9100 3400 60  0000 C CNN
+	1    9100 3400
+	0    1    1    0   
 $EndComp
 $Comp
 L R R3
@@ -1293,15 +1291,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 5100 7750 5100
 Wire Wire Line
-	9600 5050 9150 5050
-Wire Wire Line
-	9600 4950 9150 4950
-Wire Wire Line
 	9250 5250 9150 5250
 Wire Wire Line
 	9250 4850 9150 4850
-Wire Wire Line
-	9250 3650 9250 4850
 Wire Wire Line
 	9250 4550 9150 4550
 Wire Wire Line
@@ -1313,7 +1305,7 @@ Connection ~ 9250 4750
 Wire Wire Line
 	9150 4350 9250 4350
 Wire Wire Line
-	9250 3650 9150 3650
+	9150 3650 9500 3650
 Wire Wire Line
 	9150 4250 9250 4250
 Connection ~ 9250 4250
@@ -1321,29 +1313,17 @@ Wire Wire Line
 	9150 4150 9250 4150
 Connection ~ 9250 4150
 Wire Wire Line
-	9150 4050 9250 4050
+	9150 4050 9650 4050
 Connection ~ 9250 4050
 Wire Wire Line
-	9150 3950 9250 3950
-Connection ~ 9250 3950
-Wire Wire Line
-	9150 3850 9250 3850
-Connection ~ 9250 3850
-Wire Wire Line
-	9150 3750 9250 3750
+	9150 3750 9650 3750
 Connection ~ 9250 3750
 Connection ~ 9250 4350
-Connection ~ 9250 4450
 Connection ~ 9250 4550
 Wire Wire Line
 	9150 5150 9350 5150
 Wire Wire Line
 	7750 5300 7650 5300
-Connection ~ 9450 4450
-Wire Wire Line
-	9450 4450 9450 4350
-Wire Wire Line
-	9450 4050 9450 3950
 Wire Wire Line
 	4400 1950 4500 1950
 Wire Wire Line
@@ -1534,14 +1514,34 @@ F 3 "~" H 9350 5300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 5700 9700 4450
-Wire Wire Line
-	7650 5700 9700 5700
-Wire Wire Line
-	9700 4450 9250 4450
-Wire Wire Line
 	9450 5550 9250 5550
 Wire Wire Line
 	9350 5550 9350 5450
 Connection ~ 9350 5550
+Text Label 9550 3950 2    60   ~ 0
+AVR_TX
+Wire Wire Line
+	9550 3850 9150 3850
+Wire Wire Line
+	9550 3950 9150 3950
+Wire Wire Line
+	9250 5050 9150 5050
+Wire Wire Line
+	9250 4050 9250 5050
+Wire Wire Line
+	9250 4950 9150 4950
+Connection ~ 9250 4950
+Connection ~ 9250 4850
+Wire Wire Line
+	9650 3750 9650 5700
+Wire Wire Line
+	9250 3750 9250 3650
+Wire Wire Line
+	9500 3650 9500 3400
+Connection ~ 9250 3650
+Wire Wire Line
+	9200 3400 9100 3400
+Connection ~ 9650 4050
+Wire Wire Line
+	9650 5700 7650 5700
 $EndSCHEMATC
